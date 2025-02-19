@@ -67,6 +67,7 @@ public class EmployeeSalaryCalculator
 				else
 				{
 					//YOUR CODE STARTS HERE
+
 					overTimeRate = hourlyRate * 2;
  					overTime = HW - standardWorkingHours;
 					 basicPay = standardWorkingHours * hourlyRate;
